@@ -13,3 +13,5 @@ y
 Isrc/main/java/com/moviedb/userhome/controller/SearchMoviesController.java,d\a\dae4c3f0a922c172d625dd699fe041763b708c24
 j
 :src/main/java/com/moviedb/userhome/model/MovieDetails.java,6\d\6d5f33d375a50e9c99a7593d7ad806b3140840d9
+o
+?src/main/java/com/moviedb/userhome/model/MovieDetailsModel.java,a\e\ae10b1be43a30e6ff1d32b116db76dc768b8261e

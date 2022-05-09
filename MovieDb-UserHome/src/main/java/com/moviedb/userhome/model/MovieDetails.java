@@ -110,6 +110,5 @@ public class MovieDetails {
 	public void setMedia_type(String media_type) {
 		this.media_type = media_type;
 	}
-
 }
 

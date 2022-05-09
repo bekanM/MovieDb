@@ -1,0 +1,12 @@
+server.port=8084
+
+
+
+
+
+
+
+
+#values
+api.key=7c0e6821126231c11a09fdbee3a25ec8
+url1=https://api.themoviedb.org/3/discover/movie?api_key=7c0e6821126231c11a09fdbee3a25ec8&language=en-US&sort_by=original_title.asc&include_adult=false&include_video=false&page=1&with_watch_monetization_types=free
