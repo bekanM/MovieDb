@@ -1,0 +1,17 @@
+
+ƒ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¥”Κ8άφγ†0H²)RMINORZ
+CODE_SMELL
+ƒ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ωΪ¤θ8άφγ†0H·)RMINORZ
+CODE_SMELL
+…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ηΝªϊÿÿÿÿ8άφγ†0H³)RMINORZ
+CODE_SMELL
+	java:S116"[Rename this field "guest_session_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£άψO8—δλψ†0HΈ)RMINORZ
+CODE_SMELL
+…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ϋλθβόÿÿÿÿ8άφγ†0H΄)RMINORZ
+CODE_SMELL
+€	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¥”Κ8άφγ†0H¶)RMINORZ
+CODE_SMELL
+	java:S116"URename this field "expires_at" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘µρξύÿÿÿÿ8άφγ†0Hµ)RMINORZ
+CODE_SMELL
+€	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ωΪ¤θ8άφγ†0HΉ)RMINORZ
+CODE_SMELL

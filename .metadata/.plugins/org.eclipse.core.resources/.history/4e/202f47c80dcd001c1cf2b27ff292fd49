@@ -1,0 +1,5 @@
+package com.moviedb.userhome.controller;
+
+public class SearchMoviesController {
+
+}

@@ -1,0 +1,18 @@
+package com.promod.impl;
+import java.util.*;
+
+public class LambdaExpression {
+
+	public static void main(String[] args) {
+		Greet greeting= grt-> System.out.println(grt); //Creating instance to use lambda function
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter greeting String: ");
+		String greet = sc.nextLine();
+		greeting.greetings(greet);//invoking the print function
+		sc.close();
+	}
+}
+
+interface Greet{     	//Creating an Inner interface
+	public void greetings(String name);
+}

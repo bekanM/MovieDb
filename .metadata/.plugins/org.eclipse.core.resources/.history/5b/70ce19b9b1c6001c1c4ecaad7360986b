@@ -1,0 +1,42 @@
+package com.moviedb.guestlogin.controller;
+
+import java.awt.PageAttributes.MediaType;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.core.ParameterizedTypeReference;
+import org.springframework.http.HttpMethod;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+import com.moviedb.guestlogin.model.GuestLoginPage;
+/**
+ * 
+ * @author Bekan
+ *
+ */
+@RestController
+public class GuestLoginPageController {
+
+	@Autowired
+	RestTemplate guestLogin;
+	@RequestMapping(value = "/guestuserlogin",method = RequestMethod.GET, 
+			consumes = org.springframework.http.MediaType.TEXT_HTML_VALUE,
+			produces = org.springframework.http.MediaType.TEXT_HTML_VALUE)
+	public String guestLogin() {
+
+		List<GuestLoginPage> guest = guestLogin.exchange("https://api.themoviedb.org/3/authentication/guest_session/new?api_key=api-key", 
+				HttpMethod.GET, null, new ParameterizedTypeReference<List<GuestLoginPage>>() {
+		}).getBody();
+		
+		return guest.toString();
+	}
+
+	@Bean
+	RestTemplate restTemplate() {
+		return new RestTemplate();
+	}
+}	

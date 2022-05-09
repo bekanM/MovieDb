@@ -1,0 +1,21 @@
+
+ƒ	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿–¬8ì¥Ùú†0HØ)RMINORZ
+CODE_SMELL
+€	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä±Ìï8ì¥Ùú†0HÍ)RMINORZ
+CODE_SMELL
+‡	java:S116"URename this field "session_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ÉÅÏ8œìñ÷†0HÀ)RMINORZ
+CODE_SMELL
+ƒ	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿–¬8ì¥Ùú†0HÉ)RMINORZ
+CODE_SMELL
+ƒ	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¥”Ê8œìñ÷†0H¼)RMINORZ
+CODE_SMELL
+…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÍªŸúÿÿÿÿ8ì¥Ùú†0HÎ)RMINORZ
+CODE_SMELL
+Œ	java:S116"URename this field "expires_at" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘µñîıÿÿÿÿ8œìñ÷†0HÁ)RMINORZ
+CODE_SMELL
+€	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¥”Ê8ì¥Ùú†0HÏ)RMINORZ
+CODE_SMELL
+…	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬İüÿÿÿÿ8ì¥Ùú†0HÌ)RMINORZ
+CODE_SMELL
+ƒ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä±Ìï8œìñ÷†0H¾)RMINORZ
+CODE_SMELL

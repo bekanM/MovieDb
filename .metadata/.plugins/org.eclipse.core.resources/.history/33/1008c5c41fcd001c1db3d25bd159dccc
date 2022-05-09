@@ -1,0 +1,24 @@
+package com.moviedb.userhome.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+import com.moviedb.userhome.model.MovieDetailsModel;
+
+@RestController
+public class GetAllMovies {
+
+	@Autowired
+	RestTemplate getAllMovies;
+	@RequestMapping("/getmoviedetails")
+	public MovieDetailsModel sortMovieByName() {
+		String url = 
+	}
+	@Bean
+	RestTemplate template2() {
+		return new RestTemplate();
+	}
+}

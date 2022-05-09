@@ -1,0 +1,6 @@
+
+ˆ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ð®’ìùÿÿÿÿ8¡éŸÄ‰0Hß/RMINORZ
+CODE_SMELL
+—
+java:S1488"dImmediately return this expression instead of assigning it to the temporary variable "searchMovies".(ðŒ½è8áÓ‹Â‰0Hà/RMINORZ
+CODE_SMELL
