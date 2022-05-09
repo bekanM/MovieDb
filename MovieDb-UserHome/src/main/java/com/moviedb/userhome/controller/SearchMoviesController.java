@@ -10,7 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import com.moviedb.userhome.model.MovieDetailsModel;
-
+/**
+ * 
+ * @author Bekan
+ * @Version 1.0.1
+ */
 @RestController
 public class SearchMoviesController {
 
@@ -18,6 +22,11 @@ public class SearchMoviesController {
 	private String apiKey;
 	@Autowired
 	RestTemplate movieSearch;
+	/**
+	 * 
+	 * @param Requires input query string movie_Name
+	 * @return Shows movies matching the search query
+	 */
 	@RequestMapping("/serachmovies/{movie_Name}")
 	public MovieDetailsModel searchMovies(@PathVariable String movie_Name){
 		String url = "https://api.themoviedb.org/3/search/movie?api_key="+apiKey+"&language=en-US&query="+movie_Name+"&page=1&include_adult=false";
