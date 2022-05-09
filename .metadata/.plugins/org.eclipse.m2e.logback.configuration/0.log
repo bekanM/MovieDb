@@ -23154,3 +23154,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2022-05-06 15:04:47,352 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\arjun\Documents\workspace-spring-tool-suite-4-4.13.1.RELEASE\PracticeJava\MovieDb-UserHome\src\test\resources
 2022-05-06 17:09:52,739 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2022-05-09 10:38:25,721 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-05-09 11:15:03,293 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
